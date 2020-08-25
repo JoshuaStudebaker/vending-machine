@@ -1,7 +1,7 @@
-import ValuesController from "./Controllers/ValuesController.js";
+import VMC from "./Controllers/VendingController.js";
 
 class App {
-  valuesController = new ValuesController();
+  valuesController = new VMC();
 }
 
 window["app"] = new App();

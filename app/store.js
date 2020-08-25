@@ -2,6 +2,7 @@ import VendingMachine from "./Models/VendingMachine.js";
 
 let _state = {
   // activeValue: new Value({ title: "Value" }),
+
   /** @type {VendingMachine} */
   chocolateStout: new VendingMachine(
     "Chocolate Stout",

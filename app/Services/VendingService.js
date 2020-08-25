@@ -1,7 +1,7 @@
 import STORE from "../store.js";
 
 //Public
-class VendingService {
+class VMService {
   buy() {
     let item = STORE.State.VendingMachine;
     item.amount++;
@@ -10,5 +10,5 @@ class VendingService {
   }
 }
 
-const SERVICE = new VendingService();
+const SERVICE = new VMService();
 export default SERVICE;
