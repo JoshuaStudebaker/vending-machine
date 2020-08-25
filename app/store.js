@@ -9,14 +9,16 @@ let _state = {
     "assets/images/chocolate-stout.jpg",
     5,
     6.2,
-    "Ledbury, United Kingdom"
+    "Ledbury, United Kingdom",
+    123
   ),
   coffeePorter: new VendingMachine(
     "Coffee Porter",
     "assets/images/coffee-porter.jpg",
     4.5,
     5.3,
-    "Dead Man's Gulch, Montana"
+    "Dead Man's Gulch, Montana",
+    124
   ),
 };
 

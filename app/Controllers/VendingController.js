@@ -1,4 +1,5 @@
 import STORE from "../store.js";
+import VMService from "../Services/VendingService.js";
 
 function _drawVM() {
   let VMDisplay = document.getElementById("vending-machine");
@@ -15,5 +16,9 @@ function _drawVM() {
 export default class ValuesController {
   constructor() {
     _drawVM();
+  }
+
+  addToCart(id) {
+    VMService.buy(id);
   }
 }
