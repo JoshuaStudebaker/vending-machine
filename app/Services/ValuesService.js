@@ -1,8 +1,16 @@
-import Value from "../Models/Value.js";
-import store from "../store.js";
+import STORE from "../store.js";
 
 //Public
-class ValuesService {}
+class VendingService {
+  buy() {
+    let cost = 0;
+     
+    STORE.State.VendingMachine.amount++
+    cost = 
+  }
+}
 
-const SERVICE = new ValuesService();
+const SERVICE = new VendingService();
 export default SERVICE;
+
+

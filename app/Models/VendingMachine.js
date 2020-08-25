@@ -4,7 +4,8 @@ export default class VendingMachine {
     this.image = image;
     this.price = price;
     this.alcohol = alcohol;
-    this.origin = origin
+    this.origin = origin;
+    this.amount = 0
   }
 
 

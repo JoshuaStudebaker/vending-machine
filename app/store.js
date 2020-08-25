@@ -12,7 +12,7 @@ let _state = {
   ),
   coffeePorter: new VendingMachine(
     "Coffee Porter",
-    "assets.images.coffee-porter.jpg",
+    "assets/images/coffee-porter.jpg",
     4.5,
     5.3,
     "Dead Man's Gulch, Montana"
