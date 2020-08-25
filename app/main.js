@@ -1,7 +1,7 @@
-import VMC from "./Controllers/VendingController.js";
+import VendingController from "./Controllers/VendingController.js";
 
 class App {
-  valuesController = new VMC();
+  valuesController = new VendingController();
 }
 
 window["app"] = new App();

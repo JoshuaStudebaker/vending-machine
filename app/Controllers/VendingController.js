@@ -13,7 +13,7 @@ function _drawVM() {
 }
 
 //Public
-export default class ValuesController {
+export default class VendingController {
   constructor() {
     _drawVM();
   }
