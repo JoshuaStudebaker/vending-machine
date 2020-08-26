@@ -20,5 +20,6 @@ export default class VendingController {
 
   addToCart(id) {
     VMService.buy(id);
+    console.log("buy");
   }
 }

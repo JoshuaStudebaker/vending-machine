@@ -20,7 +20,7 @@ export default class VendingMachine {
                   <h5 class="card-title">${this.product} - ${alcoholPercent}</h5>
                   <p class="card-text">${priceString}</p>
                   <p>Origin: ${this.origin}</p>
-                  <button type="button" onclick="addToCart(${this.id})" class="btn btn-primary">Buy</a>
+                  <button type="button" onclick="app.valuesController.addToCart(${this.id})" class="btn btn-primary">Buy</a>
               </div>
 </div>
   }`;
